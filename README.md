@@ -46,7 +46,7 @@ a sort-of guide to revise/learn JS
 
 ## 9) Try Catch
 
-### all the js you need to know for react (almost)
+### all the js you need to know for react.js (almost)
 - Use arrow functions for cleaner code and better callback handling.
 - Utilize ternary operators for concise conditionals in React's JSX.
 - Understand object destructuring and copying with spread operator.
