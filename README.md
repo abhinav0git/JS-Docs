@@ -4,25 +4,30 @@ a sort-of guide to revise/learn JS
 ## 1 Basics of JavaScript 
 - Variables (how variables work) 
 - `var`, `let`, `const` 
-- hoisting of variables 
+- hoisting of variables
+
 ## 2 Functions 
 - Arrow Functions 
-- Higher Order Functions 
+- Higher Order Functions
+ 
 ## 3 Arrays and Objects 
 - Array De-structuring 
 - Object De-structuring 
 - rest operator 
-- spread operator 
+- spread operator
+
 ## 4 Conditions in JavaScript 
 - if else 
 - ternary operators 
 - using && and || 
-- Optional chaining 
+- Optional chaining
+
 ## 5 Array Methods 
 - map()
 - filter() 
 - reduce() 
-- sort() 
+- sort()
+
 ## 6 Event Listeners 
 - onClick 
 - onBlur 
@@ -30,16 +35,16 @@ a sort-of guide to revise/learn JS
 - onFocus 
 - setTimeout() & setInterval() 
 - EventBubling and EventCapturing method 
+
 ## 7 Asynchronous Events 
 - Callbacks 
 - Callback Hell 
 - Promises 
 - Promise APIS 
-## 8 Async Await 
-## 9 Try Catch
 
-[[express]]
-[[nodejs]]
+## 8 Async Await 
+
+## 9 Try Catch
 
 # all the js you need to know for react
 - Use arrow functions for cleaner code and better callback handling.
