@@ -1,34 +1,34 @@
 # Javascript Doc
 a sort-of guide to revise/learn JS 
 
-## 1 Basics of JavaScript 
+## 1) Basics of JavaScript 
 - [ ] Variables (how variables work) 
 - [ ] `var`, `let`, `const` 
 - [ ] hoisting of variables
 
-## 2 Functions 
+## 2) Functions 
 - [ ] Arrow Functions 
 - [ ] Higher Order Functions
  
-## 3 Arrays and Objects 
+## 3) Arrays and Objects 
 - [ ] Array De-structuring 
 - [ ] Object De-structuring 
 - [ ] rest operator 
 - [ ] spread operator
 
-## 4 Conditions in JavaScript 
+## 4) Conditions in JavaScript 
 - [ ] if else 
 - [ ] ternary operators 
 - [ ] using && and || 
 - [ ] Optional chaining
 
-## 5 Array Methods 
+## 5) Array Methods 
 - [ ] map()
 - [ ] filter() 
 - [ ] reduce() 
 - [ ] sort()
 
-## 6 Event Listeners 
+## 6) Event Listeners 
 - [ ] onClick 
 - [ ] onBlur 
 - [ ] onChange 
@@ -36,17 +36,17 @@ a sort-of guide to revise/learn JS
 - [ ] setTimeout() & setInterval() 
 - [ ] EventBubling and EventCapturing method 
 
-## 7 Asynchronous Events 
+## 7) Asynchronous Events 
 - [ ] Callbacks 
 - [ ] Callback Hell 
 - [ ] Promises 
 - [ ] Promise APIS 
 
-## 8 Async Await 
+## 8) Async Await 
 
-## 9 Try Catch
+## 9) Try Catch
 
-# all the js you need to know for react (almost)
+### all the js you need to know for react (almost)
 - Use arrow functions for cleaner code and better callback handling.
 - Utilize ternary operators for concise conditionals in React's JSX.
 - Understand object destructuring and copying with spread operator.
