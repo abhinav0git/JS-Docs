@@ -1,42 +1,42 @@
 # Javascript Doc
 a sort-of guide to revise/learn JS 
 
-## - [ ] Basics of JavaScript 
+## 1 Basics of JavaScript 
 - Variables (how variables work) 
 - `var`, `let`, `const` 
 - hoisting of variables 
-## - [ ] Functions 
+## 2 Functions 
 - Arrow Functions 
 - Higher Order Functions 
-## - [ ] Arrays and Objects 
+## 3 Arrays and Objects 
 - Array De-structuring 
 - Object De-structuring 
 - rest operator 
 - spread operator 
-## - [ ] Conditions in JavaScript 
+## 4 Conditions in JavaScript 
 - if else 
 - ternary operators 
 - using && and || 
 - Optional chaining 
-## - [ ] Array Methods 
+## 5 Array Methods 
 - map()
 - filter() 
 - reduce() 
 - sort() 
-## - [ ] Event Listeners 
+## 6 Event Listeners 
 - onClick 
 - onBlur 
 - onChange 
 - onFocus 
 - setTimeout() & setInterval() 
 - EventBubling and EventCapturing method 
-## - [ ] Asynchronous Events 
+## 7 Asynchronous Events 
 - Callbacks 
 - Callback Hell 
 - Promises 
 - Promise APIS 
-## - [ ] Async Await 
-## - [ ] Try Catch
+## 8 Async Await 
+## 9 Try Catch
 
 [[express]]
 [[nodejs]]
