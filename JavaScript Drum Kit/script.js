@@ -10,12 +10,12 @@ fetch('https://api.pexels.com/v1/search?query=drums&per_page=1', {
 })
 .then(response => response.json())
 .then(data => { 
-    console.log(data.photos[0].url)
+    // console.log(data.photos[0].url)
     const photoUrl = data.photos[0].url;
-    document.body.style.backgroundImage = 'url(${photoUrl})';
 })
 .catch(error => console.log('error', error));
 
+document.body.style.backgroundImage = 'url(${photoUrl})';
 
 // drum kit functionality (sounds)
 
