@@ -43,5 +43,3 @@ const keys = document.querySelectorAll('.key');
 keys.forEach(kk => kk.addEventListener('transitionend', removeTransition) );
 
 window.addEventListener('keydown', playSound);
-
-require('dotenv').config();
