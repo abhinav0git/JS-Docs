@@ -8,7 +8,12 @@ fetch('https://api.pexels.com/v1/search?query=drums&per_page=1', {
     'Authorization': 'UhLR1MLLWWNbvEMP30JDPoAJ6taufpaTjjfTogLT49Hhec7aTUaeC4ms',
   }
 })
-.then(response => response.json())
+.then(response => {
+    if (!response.ok) {
+      throw new Error('HTTP error ' + response.status);
+    }
+    return response.json();
+  })
 .then(data => { 
     // console.log(data.photos[0].url)
     const photoUrl = data.photos[0].url;
