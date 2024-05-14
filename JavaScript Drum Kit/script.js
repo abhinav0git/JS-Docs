@@ -3,10 +3,9 @@
 
 // fetching image from pexels api as a background image
 
-const apikey = UhLR1MLLWWNbvEMP30JDPoAJ6taufpaTjjfTogLT49Hhec7aTUaeC4ms;
 fetch('https://api.pexels.com/v1/search?query=drums&per_page=1', {
   headers: {
-    'Authorization': apikey,
+    'Authorization': UhLR1MLLWWNbvEMP30JDPoAJ6taufpaTjjfTogLT49Hhec7aTUaeC4ms,
   }
 })
 .then(response => response.json())
