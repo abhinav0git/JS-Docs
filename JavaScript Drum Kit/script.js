@@ -5,7 +5,7 @@
 
 fetch('https://api.pexels.com/v1/search?query=drums&per_page=1', {
   headers: {
-    'Authorization': UhLR1MLLWWNbvEMP30JDPoAJ6taufpaTjjfTogLT49Hhec7aTUaeC4ms,
+    'Authorization': 'UhLR1MLLWWNbvEMP30JDPoAJ6taufpaTjjfTogLT49Hhec7aTUaeC4ms',
   }
 })
 .then(response => response.json())
