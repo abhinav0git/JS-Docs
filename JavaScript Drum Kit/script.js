@@ -2,7 +2,7 @@
 // document.body.style.backgroundImage = 'url(https://wallpapercave.com/wp/wp1951951.jpg)';
 
 // fetching image from pexels api as a background image
-
+const apikey = process.env.API_KEY;
 fetch('https://api.pexels.com/v1/search?query=drums&per_page=1', {
   headers: {
     'Authorization': apikey,
@@ -45,5 +45,3 @@ keys.forEach(kk => kk.addEventListener('transitionend', removeTransition) );
 window.addEventListener('keydown', playSound);
 
 require('dotenv').config();
-
-const apikey = process.env.API_KEY;
